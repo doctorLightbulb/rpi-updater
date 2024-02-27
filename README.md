@@ -10,7 +10,42 @@ That is precisely what this script is for.
 
 ## Prerequities
 
-To run the script, Python 3.11 must be installed on the machine. The script uses the Python Standard Library, so no virtual environment or third-party dependencies are needed.
+To run the script, Python 3.11 must be installed on the machine. The script uses a third-prty library called `Rich`. So, a virtual environment is needed.
+
+To set up a Python virtual environment (in this case, `venv`), navigate to the folder in which you wish to house the script. Open a terminal window from that folder (press `F4`) and enter the following command:
+
+```bash
+# Install the virtual environment
+python -m venv venv --prompt="updater"
+```
+
+Activate the virtual environment with the following command:
+
+```bash
+# Activate the virtual environment
+source venv/bin/activate
+```
+
+If you are not using `bash`, replace `source` with a period (`.`):
+
+```bash
+# Alternate activation method.
+. venv/bin/activate
+```
+
+Update `pip` with this command:
+
+```bash
+python -m pip install --upgrade pip
+```
+
+Now, install `Rich`:
+
+```bash
+pip install rich
+```
+
+The script `updater.py` was developed using `rich` version `13.7.0`, thou other versions _should_ work, too.
 
 ## How to use the Script
 
