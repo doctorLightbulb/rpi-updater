@@ -49,9 +49,21 @@ The script `updater.py` was developed using `rich` version `13.7.0`, thou other 
 
 ## How to use the Script
 
+With the virtual environment activated, the script can be run this way:
+
 ```powershell
 python updater.py sudo apt update
 ```
+
+Without the virtual environment activated, the script can also be run using the `bash` convenience script `updater.sh`:
+
+```bash
+bash updater.sh
+```
+
+Currently, the script prompts you for the commands. This will change later to accept the commands on the same line that invokes the script.
+
+All `updater.sh` does is activate the Python virtual environment, accept a command from the user and then run `updater.py`.
 
 ## Supported Commands
 
