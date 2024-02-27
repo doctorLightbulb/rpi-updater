@@ -4,7 +4,7 @@ A simple script to automatically resume downloading updates.
 
 > Note: This script is needed only if the Pi has an unsteady Wi-Fi connection.
 
-Have you ever had the following ecperience? You start your Raspberry Pi downloading updates. Then you leave the rooom for a while. When you return, you find that your Raspberry Pi failed to "fetch some archives."
+Have you ever had the following ecperience? You start your Raspberry Pi downloading updates. Then you leave the room for a while. When you return, you find that your Raspberry Pi failed to "fetch some archives."
 
 That is precisely what this script is for.
 
