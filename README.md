@@ -45,7 +45,7 @@ Now, install `Rich`:
 pip install rich
 ```
 
-The script `updater.py` was developed using `rich` version `13.7.0`, thou other versions _should_ work, too.
+The script `updater.py` was developed using `rich` version `13.7.0`, though other versions _should_ work, too.
 
 ## How to use the Script
 
@@ -55,7 +55,7 @@ With the virtual environment activated, the script can be run this way:
 python updater.py sudo apt update
 ```
 
-Without the virtual environment activated, the script can also be run using the `bash` convenience script `updater.sh`:
+Without the virtual environment activated, the script can also be run using the `bash` convenience script, `updater.sh`:
 
 ```bash
 bash updater.sh
